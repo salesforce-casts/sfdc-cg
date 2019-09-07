@@ -1,0 +1,10 @@
+<apex:page controller="exploreSixthController">
+    
+    <apex:form >
+       
+        <apex:commandButton action="{! getText }" value="send text" />
+        
+      
+    </apex:form>
+    
+</apex:page>

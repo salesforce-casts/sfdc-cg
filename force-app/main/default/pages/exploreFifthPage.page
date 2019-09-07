@@ -1,0 +1,31 @@
+<apex:page controller="exploreFifthController" >
+    
+    {! name } → 
+    
+    {! location }
+    <apex:form >
+        
+        
+        <apex:commandButton value="Get me the records" action="{! loopOver }"/>
+        
+        <apex:pageBlock >
+            
+            <apex:pageBlockButtons location="top">
+                <apex:commandButton value="Submit" action="{! loopOver }"/>
+                <apex:commandButton value="Cancel" action="{! loopOver }"/>
+            </apex:pageBlockButtons>
+            
+            <apex:pageBlockTable value="{! accounts }" var="account">
+                <apex:column value="{! account.Name }"/>
+                <apex:column value="{! account.Industry }"/>
+                <apex:column value="{! account.Rating }"/>
+            </apex:pageBlockTable>
+            
+            
+            
+        </apex:pageBlock>
+    </apex:form>
+    
+    
+    
+</apex:page>
