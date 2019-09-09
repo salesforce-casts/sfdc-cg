@@ -12,3 +12,12 @@
 ### Insert couple of records to the above list
 ### Upsert the list
 ### Try to get the count of the records
+
+
+## SOQL & Collections
+
+### fetch list of Account records and have one inner query to fetch contacts, one inner query to fetch opportunities and one inner query to fetch cases. 
+### Create a map of account ids to contact records.
+### Create a map of account ids to case records.
+### Create a map of account ids to opportunity records.
+### In the VF page loop over all the accounts and its contacts, cases and Opportunities. 
