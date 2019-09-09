@@ -17,7 +17,7 @@
 ## SOQL & Collections
 
  - fetch list of Account records and have one inner query to fetch contacts, one inner query to fetch opportunities and one inner query to fetch cases. 
- - Create a map of account ids to contact records.
- - Create a map of account ids to case records.
- - Create a map of account ids to opportunity records.
- - In the VF page loop over all the accounts and its contacts, cases and Opportunities. 
+ - Create a map of account ids to contact records. `Map<Id, List<Contact>>`
+ - Create a map of account ids to case records. `Map<Id, List<Case>>`
+ - Create a map of account ids to opportunity records. `Map<Id, List<Opportunity>>`
+ - In the VF page loop over all the accounts and its contacts, cases and Opportunities. `<apex:repeat></apex:repeat>`
