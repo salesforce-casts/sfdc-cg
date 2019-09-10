@@ -37,3 +37,14 @@
 - Create a VF page 
 - Invoke apex method on click on a button 
 - From apex method invoke Batch Apex
+
+
+
+__TODO__
+
+- Dynamic SOQL
+- Debugging Batch 
+- Passing parameters in methods 
+- Tags in Visualforce pages 
+
+
