@@ -34,6 +34,6 @@
    3. One button with three implementations in 2/3/4 extensions. 
 
 ## Batch Apex
-			- Create a VF page 
-			- Invoke apex method on click on a button 
-			- From apex method invoke Batch Apex
+- Create a VF page 
+- Invoke apex method on click on a button 
+- From apex method invoke Batch Apex
