@@ -2,7 +2,7 @@
 
 
 
-# SOQL & DML
+## SOQL & DML
  - SOQL query to list all the records
     1. use WHERE Clause 
     2. LIMIT OFFSET operator
@@ -22,8 +22,6 @@
  - Create a map of account ids to opportunity records. `Map<Id, List<Opportunity>>`
  - In the VF page loop over all the accounts and its contacts, cases and Opportunities. `<apex:repeat></apex:repeat>`
  
- 
- 
  ## Standard Controllers
  
  - Create a VF page and assosiate it with a standard/custom object
@@ -37,8 +35,6 @@
 - Create a VF page 
 - Invoke apex method on click on a button 
 - From apex method invoke Batch Apex
-
-
 
 ## TODO
 
