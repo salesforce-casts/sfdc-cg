@@ -32,3 +32,8 @@
    1. One button pointing to a standard method ex save, cancel, edit
    2. One button pointing to a method in an extension 
    3. One button with three implementations in 2/3/4 extensions. 
+
+## Batch Apex
+			- Create a VF page 
+			- Invoke apex method on click on a button 
+			- From apex method invoke Batch Apex
