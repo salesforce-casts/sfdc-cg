@@ -28,3 +28,7 @@
  
  - Create a VF page and assosiate it with a standard/custom object
  - Embed the VF page in the assosiated object's record page
+ - Try to create three buttons 
+   1. One button pointing to a standard method ex save, cancel, edit
+   2. One button pointing to a method in an extension 
+   3. One button with three implementations in 2/3/4 extensions. 
