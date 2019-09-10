@@ -1,0 +1,5 @@
+<apex:page controller="exploreBatchInvocationController">
+    <apex:form >
+    	<apex:commandButton value="Invoke Batch" action="{! invokeBatch }"/>
+    </apex:form>
+</apex:page>
