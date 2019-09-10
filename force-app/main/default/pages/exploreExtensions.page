@@ -1,0 +1,10 @@
+<apex:page standardController="Account" extensions="exploreExtensionTwo">
+    
+
+
+ <apex:form >
+        <img src="https://via.placeholder.com/150" alt="150" />
+        <apex:commandButton value="Click me" action="{! click }"/>
+        
+    </apex:form>
+</apex:page>

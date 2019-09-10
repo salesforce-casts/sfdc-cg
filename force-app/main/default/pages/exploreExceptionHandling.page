@@ -1,0 +1,9 @@
+<apex:page controller="ExceptionHandlingController">
+    <apex:form >
+        Name →  <apex:inputText value="{! name }"/> <br />
+        Account Number → <apex:inputText value="{! accNumber }"/>
+        
+        <apex:commandButton value="Save" action="{! execute }"/>
+        
+    </apex:form>
+</apex:page>
