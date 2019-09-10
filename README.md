@@ -21,3 +21,10 @@
  - Create a map of account ids to case records. `Map<Id, List<Case>>`
  - Create a map of account ids to opportunity records. `Map<Id, List<Opportunity>>`
  - In the VF page loop over all the accounts and its contacts, cases and Opportunities. `<apex:repeat></apex:repeat>`
+ 
+ 
+ 
+ ## Standard Controllers
+ 
+ - Create a VF page and assosiate it with a standard/custom object
+ - Embed the VF page in the assosiated object's record page
