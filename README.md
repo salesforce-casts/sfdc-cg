@@ -61,6 +61,13 @@
 - ~~Debugging Batch~~
 - ~~Passing parameters in methods~~
 - Tabs for Visualforce Pages
-- Tags in Visualforce pages 
+- Where can we use VF pages 
+- Example with css and JS
+- ~~Tags in Visualforce pages~~
+- [] Recursive Triggers
+- Governer Limits
+- Apex Transactions & Save execution order
+- Wrapper Classes
+- SOSL
 
 
