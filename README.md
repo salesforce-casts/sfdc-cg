@@ -32,6 +32,7 @@
    3. One button with three implementations in 2/3/4 extensions. 
 
 ## Batch Apex
+
 - Create a VF page 
 - Invoke apex method on click on a button 
 - From apex method invoke Batch Apex
@@ -40,6 +41,19 @@
 
 - Search functionality 
 - `Database.insert()`
+
+## Explore VF Tags
+- <apex:actionFunction />
+- <apex:actionSupport />
+- <apex:actionPoller />
+- <apex:actionStatus />
+- <apex:outputPanel /> and other output tags
+- <apex:inputText /> and other input tags
+- <apex:inputField />
+- <apex:dataList />
+- <apex:dataTable />
+- <apex:pageBlockTable />
+- <apex:repeat />
 
 ## TODO
 
