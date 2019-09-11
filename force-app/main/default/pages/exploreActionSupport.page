@@ -1,0 +1,24 @@
+<!--  Page: -->
+<apex:page controller="ExploreActionSupportController">
+    <apex:form >
+        
+        <apex:outputText id="teja">
+            <!-- code -->
+            
+            <apex:outputpanel id="counter">
+                <apex:outputText value="Click Me!: {!count}"/>
+                <apex:actionSupport event="onclick" 
+                                    action="{!incrementCounter}" 
+                                    rerender="teja" status="counterStatus"/>
+            </apex:outputpanel>
+            
+            
+        </apex:outputText>
+        
+
+        
+        <apex:actionStatus id="counterStatus" 
+                           startText=" (incrementing...)" 
+                           stopText=" (done)"/>
+    </apex:form>
+</apex:page>

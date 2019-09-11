@@ -1,15 +1,29 @@
 <apex:page controller="exploreDynamicSOQL">
+    
+    <script>
+    	function invokeApexMethod(){
+        	invokeByCB();
+        }
+    </script>
+    
     <apex:form >
         <apex:inputText value="{! q }"/>
         
         <apex:commandButton value="Search" action="{! search }" />
         
     </apex:form>
-    
+    <!-- <apex:outputText rendered="{! IF(message != null, true, false) }">{! message }</apex:outputText> -->
+    {! IF(message != null, message, '') }
+    <apex:form >
+    	{! messageFromAF }<apex:inputCheckbox value="{! messageFlag }" onclick="invokeApexMethod()" />
+        
+        <apex:actionFunction action="{! invokedViaAF }" name="invokeByCB" />
+    </apex:form>
+    {! TODAY() + 30 }
     <apex:pageBlock >
-    	<apex:pageBlockTable value="{! aList }" var="r" >
-        	<apex:column value="{! r.Name }" />
-                    	<apex:column value="{! r.Rating }" />        	
+        <apex:pageBlockTable value="{! aList }" var="r" >
+            <apex:column value="{! r.Name }" />
+            <apex:column value="{! r.Rating }" />        	
             <apex:column value="{! r.Industry }" />
         </apex:pageBlockTable>
     </apex:pageBlock>
