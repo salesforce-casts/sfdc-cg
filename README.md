@@ -36,6 +36,11 @@
 - Invoke apex method on click on a button 
 - From apex method invoke Batch Apex
 
+## POC
+
+- Search functionality 
+- `Database.insert()`
+
 ## TODO
 
 - ~~Dynamic SOQL~~
