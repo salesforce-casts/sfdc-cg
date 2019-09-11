@@ -39,8 +39,8 @@
 ## TODO
 
 - ~~Dynamic SOQL~~
-- ~~Debugging Batch ~~
-- ~~Passing parameters in methods ~~
+- ~~Debugging Batch~~
+- ~~Passing parameters in methods~~
 - Tabs for Visualforce Pages
 - Tags in Visualforce pages 
 
