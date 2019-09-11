@@ -64,7 +64,7 @@
 - Where can we use VF pages 
 - Example with css and JS
 - ~~Tags in Visualforce pages~~
-- [] Recursive Triggers
+- Recursive Triggers
 - Governer Limits
 - Apex Transactions & Save execution order
 - Wrapper Classes
