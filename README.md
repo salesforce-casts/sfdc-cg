@@ -69,5 +69,6 @@
 - Apex Transactions & Save execution order
 - Wrapper Classes
 - SOSL
+- Second syntax for setters & getters
 
 
