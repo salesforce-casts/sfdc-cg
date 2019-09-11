@@ -17,7 +17,7 @@
     <apex:form >
     	{! messageFromAF }<apex:inputCheckbox value="{! messageFlag }" onclick="invokeApexMethod()" />
         
-        <apex:actionFunction action="{! invokedViaAF }" name="invokeByCB" />
+        <apex:actionFunction action="{! invokedViaAF }" name="invokeByCB"  />
     </apex:form>
     {! TODAY() + 30 }
     <apex:pageBlock >

@@ -1,0 +1,36 @@
+<apex:page controller="exploreDynamicSearch">
+    <apex:form >
+        <apex:inputText value="{! q }"/>
+        
+        <apex:commandButton value="Search" action="{! search }" reRender="outAccount, outCandidate" />
+        Account <apex:inputCheckbox value="{! cbaccount}"/>
+        Candidate <apex:inputCheckbox value="{! cbcandidate}"/>
+        
+    </apex:form>
+    
+    <apex:outputText rendered="{! IF(message !=null, true, false) }">{! message}</apex:outputText>
+    
+    
+    <apex:outputPanel id="outAccount">
+        <apex:pageBlock rendered="{! cbaccount}">
+            <apex:pageBlockTable value="{! bList }" var="r" >
+                <apex:column value="{! r.Id }" />
+                <apex:column value="{! r.Name }" />
+                
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:outputPanel>
+    
+    <apex:outputPanel id="outCandidate" >
+        
+        <apex:pageBlock rendered="{! cbcandidate}">
+            
+            <apex:pageBlockTable value="{! cList }" var="r" >
+                <apex:column value="{! r.Id }" />
+                <apex:column value="{! r.Name }" />
+                
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+        
+    </apex:outputPanel>
+</apex:page>
