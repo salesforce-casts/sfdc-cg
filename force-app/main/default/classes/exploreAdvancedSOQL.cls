@@ -18,4 +18,9 @@ public class exploreAdvancedSOQL {
         //child → parent (Custom Object)			
         //Contact c = [SELECT Id, CustomObject__r.Name FROM Account WHERE Id ='XXXXXXX' ]
     }
+    
+    public List<Account> fetchAccounts(){
+        //do something
+        return [SELECT Id FROM Account LIMIT 5];
+    }
 }
