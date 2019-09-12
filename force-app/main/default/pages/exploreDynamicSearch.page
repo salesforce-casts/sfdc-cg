@@ -3,7 +3,7 @@
         <apex:inputText value="{! q }"/>
         
         <apex:commandButton value="Search" action="{! search }" reRender="outAccount, outCandidate" />
-        Account <apex:inputCheckbox value="{! cbaccount}"/>
+        Account <apex:inputCheckbox value="{! cbaccount}" id="accountCheckBox"/>
         Candidate <apex:inputCheckbox value="{! cbcandidate}"/>
         
     </apex:form>

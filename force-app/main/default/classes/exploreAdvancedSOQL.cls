@@ -10,8 +10,11 @@ public class exploreAdvancedSOQL {
         
         
         //child → parent (Standard Object)
-        Contact c = [SELECT Id, Account.Name, Account.Rating FROM Contact]; // WHERE Id ='XXXXXXX'
+        List<Contact> c = [SELECT Id, Account.Name, Account.Rating FROM Contact]; // WHERE Id ='XXXXXXX'
         
+        if(c.size() == 10){
+            System.debug(' 🚀 ');
+        }
         //child → parent (Custom Object)			
         //Contact c = [SELECT Id, CustomObject__r.Name FROM Account WHERE Id ='XXXXXXX' ]
     }
