@@ -55,20 +55,25 @@
 - <apex:pageBlockTable />
 - <apex:repeat />
 
+## Test Framework
+
+- Try and create test classes for all the classes we have created so far
+- Try and implement `System.runAs()`, `System.assetEquals()` _and its other variants_ and `Test.startTest()`, `Test.stopTest()`
+
 ## TODO
 
 - ~~Dynamic SOQL~~
 - ~~Debugging Batch~~
 - ~~Passing parameters in methods~~
-- Tabs for Visualforce Pages
-- Where can we use VF pages 
+- ~~Tabs for Visualforce Pages~~
+- ~~Where can we use VF pages~~ 
 - Example with css and JS
 - ~~Tags in Visualforce pages~~
 - Recursive Triggers
-- Governer Limits
+- ~~Governer Limits~~
 - Apex Transactions & Save execution order
 - Wrapper Classes
-- SOSL
+- ~~SOSL~~
 - Second syntax for setters & getters
 
 
