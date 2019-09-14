@@ -67,13 +67,9 @@
 - ~~Passing parameters in methods~~
 - ~~Tabs for Visualforce Pages~~
 - ~~Where can we use VF pages~~ 
-- Example with css and JS
 - ~~Tags in Visualforce pages~~
-- Recursive Triggers
+- ~~ecursive Triggers~~
 - ~~Governer Limits~~
-- Apex Transactions & Save execution order
-- Wrapper Classes
 - ~~SOSL~~
-- Second syntax for setters & getters
 
 
